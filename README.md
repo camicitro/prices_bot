@@ -98,6 +98,7 @@ Algunos problemas que tuve durante el proyecto fueron:
 - No pude agregar correctamente las imágenes a los productos porque me detectaba que eran productos diferentes (ya sea el nombre o la imagen), por eso tampoco pude hacer una agrupación de modo que mostrara en un mismo mensaje los precios de los distintos supermercados por producto. La idea sería aprender un poco más y lograr hacerlo en una próxima versión.
 
 ### Mejoras a futuro
+- Planeo desplegar la aplicación en un servidor para que el bot se ejecute de forma continua y esté disponible para probarlo sin necesidad de correr el programa localmente.
 - Que se scrapeen todos los productos en un proceso en segundo plano cada cierta cantidad de horas o dias y lo guarde en una BD. Entonces que el bot realice la búsqueda directamente en la BD.
 - Agregar la opción "Todos" para que busque en todos los supermercados a la vez.
 - Agregar imagenes de los productos y agrupar por producto (que en un mensaje ponga el producto seleccionado y los distintos precios de los supermercados). En este caso debería modificar también que al iniciar no solicite un supermercado o que con la opción de "Todos" muestre este caso.
