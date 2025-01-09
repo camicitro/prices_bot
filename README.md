@@ -103,6 +103,7 @@ Algunos problemas que tuve durante el proyecto fueron:
 - Agregar la opción "Todos" para que busque en todos los supermercados a la vez.
 - Agregar imagenes de los productos y agrupar por producto (que en un mensaje ponga el producto seleccionado y los distintos precios de los supermercados). En este caso debería modificar también que al iniciar no solicite un supermercado o que con la opción de "Todos" muestre este caso.
 - Hacer que no se abra la ventana del navegador durante el scraping.
+- Agregar búsquedas por categorías.
 
 
 
