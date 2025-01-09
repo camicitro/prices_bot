@@ -67,9 +67,9 @@ Acá se encuentra el archivo _bot.log_, que sirve para registrar eventos importa
 ## ¿Cómo utilizar el bot?
 Simplemente corriendo el archivo desde la carpeta raíz del proyecto con el comando:
 ```python bot.py``` es posible probar el funcionamiento del bot. Además, hay que agregarlo en telegram. El nombre de usuario del mismo es: @buenos_precios_bot, y el QR:
-
-<img src="https://github.com/user-attachments/assets/a33a9c8b-fefd-4ab4-b5ce-ac1701bd456e" style="width: 150px">
-
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/a33a9c8b-fefd-4ab4-b5ce-ac1701bd456e" style="width: 150px;">
+</div>
 Una vez esté corriendo nuestro programa, podemos comenzar a interactuar con el bot, para ello hay que iniciarlo mandando el siguiente mensaje:
 ```/start```. Una vez hecho esto, seguí las instrucciones que da el bot y ¡listo!
 
@@ -80,9 +80,9 @@ Si es la primera vez que vas a correrlo, es necesario instalar las dependencias.
 Recomiendo que primero crees un entorno virtual porque sino vas a instalar las dependencias en tu entorno global y puede traer complicaciones con otros proyectos.
 
 Además, una cosa importante a tener en cuenta, es que necesitás el token del bot, que no está subido. Si querés, podes crear un nuevo bot y obtener el token, después crear el archivo .env dentro de la ruta raíz del proyecto y poner dicho token. Para crear el bot desde telegram, tenes que buscar el siguiente contacto:
-
-<img src="https://github.com/user-attachments/assets/943caeb2-b8e7-419b-b891-f4fcec05ca81" style="width: 150px">
-
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/943caeb2-b8e7-419b-b891-f4fcec05ca81" style="width: 180px">
+</div>
 Y después, ejecutar en el chat el comando: ```/start``` y seguir las instrucciones hasta obtener el token.
 
 Por último, tené en cuenta que el scraping lo realicé el día 07/01/2025, por lo que si al momento de probar el bot no te funciona algún supermercado, puede ser que la página haya cambiado. Así que hay que actualizar los códigos del scraping.
