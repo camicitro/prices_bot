@@ -91,6 +91,10 @@ Y después, ejecutar en el chat el comando: ```/start``` y seguir las instruccio
 
 Por último, tené en cuenta que el scraping lo realicé el día 07/01/2025, por lo que si al momento de probar el bot no te funciona algún supermercado, puede ser que la página haya cambiado. Así que hay que actualizar los códigos del scraping.
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/af35144c-a2a5-48cd-b087-3175b968d782" style="width: 500px">
+</div>
+
 ## Conclusiones
 Me pareció entretenido realizar este proyecto, principalmente porque pude aprender a hacer web scraping. Además, considero que al hacerlo con ChatGPT, e ir viendo la explicación junto con las ideas del código, aprendí más rápido que siguiendo cualquier curso o video tutorial de youtube.
 
