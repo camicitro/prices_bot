@@ -79,7 +79,7 @@ Si es la primera vez que vas a correrlo, es necesario instalar las dependencias.
 
 Recomiendo que primero crees un entorno virtual porque sino vas a instalar las dependencias en tu entorno global y puede traer complicaciones con otros proyectos.
 
-Además, una cosa importante a tener en cuenta, es que necesitas el token del bot, que no está subido. Si querés, podes crear un nuevo bot y obtener el token, después crear el archivo .env dentro de la ruta raíz del proyecto y poner dicho token. Para crear el bot desde telegram, tenes que buscar el siguiente contacto:
+Además, una cosa importante a tener en cuenta, es que necesitás el token del bot, que no está subido. Si querés, podes crear un nuevo bot y obtener el token, después crear el archivo .env dentro de la ruta raíz del proyecto y poner dicho token. Para crear el bot desde telegram, tenes que buscar el siguiente contacto:
 
 <img src="https://github.com/user-attachments/assets/943caeb2-b8e7-419b-b891-f4fcec05ca81" style="width: 150px">
 
