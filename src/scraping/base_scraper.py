@@ -9,7 +9,7 @@ from abc import abstractmethod
 class BaseScraper:
     def _initialize_driver(self):
         options = Options()
-        options.add_argument("--headless")
+        #options.add_argument("--headless")
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=options)
         return driver
