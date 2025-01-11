@@ -73,7 +73,7 @@ Simplemente corriendo el archivo desde la carpeta raíz del proyecto con el coma
 </div>
 
 Una vez esté corriendo nuestro programa, podemos comenzar a interactuar con el bot, para ello hay que iniciarlo mandando el siguiente mensaje:
-```/start```. Una vez hecho esto, seguí las instrucciones que da el bot y ¡listo!
+```/start```. Hecho esto, seguí las instrucciones que da el bot y ¡listo!
 
 ### Consideraciones a tener en cuenta
 Si es la primera vez que vas a correrlo, es necesario instalar las dependencias. Podés hacerlo instalando una por una o corriendo el archivo requeriments.txt mediante el comando:
