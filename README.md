@@ -50,9 +50,9 @@ Este es el archivo principal que contiene el código para ejecutar el bot.
 - Se enfoca únicamente en la lógica del bot y no en el scraping.
 
 ### scraping
-Esta carpeta contiene los distintos scrapers. Acá utilicé el patrón de diseño "Factory", abstrayendo la creación de estos objetos.
+Esta carpeta contiene los distintos scrapers. Acá utilicé el patrón de diseño "Factoría", abstrayendo la creación de estos objetos.
 El archivo _base_scraper.py_ tiene la clase BaseScraper que contiene la lógica común a todos los scrapers.
-Los distintos scrapers de supermercados, heredan de la clase BaseScraper el método _scrape_.
+Los distintos scrapers de supermercados, heredan de la clase BaseScraper.
 El archivo _scraper_factory.py_ se encarga de crear instancias de los scrapers específicos según el supermercado seleccionado.
 
 ### utils
