@@ -1,7 +1,7 @@
 from scraping.jumbo_scraper import JumboScraper
 from scraping.atomo_scraper import AtomoScraper
 from scraping.carrefour_scraper import CarrefourScraper
-from scraping.changomas_scraper import ChangoMasScrapper
+from scraping.changomas_scraper import ChangoMasScraper
 from scraping.coto_scraper import CotoScraper
 from scraping.vea_scraper import VeaScraper
 
@@ -12,7 +12,7 @@ class ScraperFactory:
             "jumbo": JumboScraper,
             "atomo": AtomoScraper,
             "carrefour": CarrefourScraper,
-            "changomas": ChangoMasScrapper,
+            "changomas": ChangoMasScraper,
             "coto": CotoScraper,
             "vea": VeaScraper,
             
