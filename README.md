@@ -96,9 +96,9 @@ Por último, tené en cuenta que el scraping lo realicé el día 07/01/2025, por
 </div>
 
 ## Conclusiones
-Me pareció entretenido realizar este proyecto, principalmente porque pude aprender a hacer web scraping. Además, considero que al hacerlo con ChatGPT, e ir viendo la explicación junto con las ideas del código, aprendí más rápido que siguiendo cualquier curso o video tutorial de youtube.
+Me pareció entretenido realizar este proyecto, principalmente porque pude aprender a hacer web scraping. Además, considero que al hacerlo con ChatGPT, e ir viendo la explicación junto con las ideas del código, aprendí más rápido que siguiendo un curso o video tutorial de youtube.
 
-Con el tema de ChatGPT, creo que es necesario primero darle un contexto sobre el tema, como los objetivos que queremos cumplir, las herramientas utilizadas, etc. Además, detallar lo mejor posible las funcionalidades básicas que queremos que cumpla, pero siempre manteniéndonos claros y concisos. Una buena idea también es darle algún ejemplo para que entienda el resultado que queremos obtener.
+Con el respecto al uso de ChatGPT, creo que es necesario primero darle un contexto sobre el tema, como los objetivos que queremos cumplir, las herramientas utilizadas, etc. Además, detallar lo mejor posible las funcionalidades básicas que queremos que cumpla, pero siempre manteniéndonos claros y concisos. Una buena idea también es darle algún ejemplo para que entienda el resultado que queremos obtener.
 Después de algunas pruebas, también descubrí que lo mejor era escribirle los prompts en inglés.
 Lo más importante de todo, es usar lo que nos da el chat como una guía, o al menos revisarlo y así adaptarlo a nuestro proyecto.
 
@@ -106,15 +106,14 @@ Lo más importante de todo, es usar lo que nos da el chat como una guía, o al m
 Algunos problemas que tuve durante el proyecto fueron:
 - Varios de los supermercados tenían una estructura de su página web diferente a los demás, por lo que tuve que realizar un scraper para cada uno.
 - Algunas veces no podía definir bien qué selector usar, eso fui solucionándolo a prueba y error.
-- Ciertos supermercados, como el "ChangoMas", detectaban que estaban siendo scrapeados si ocultaba la ventana del navegador al usar selenium. Es por ello que decidí no ocultarla porque probé varias cosas y no lo pude solucionar. Además, en algunos casos tuve también que agregarle un tiempo extra luego de cargar el html de la página para que no lo detectara y tomara bien los productos.
+- Ciertos supermercados, como el "ChangoMas", detectaban que estaban siendo scrapeados si ocultaba la ventana del navegador al usar selenium. Además, tuve también que agregarle un tiempo extra luego de cargar el html de la página para que no lo detectara y tomara bien los productos.
 - No pude agregar correctamente las imágenes a los productos porque me detectaba que eran productos diferentes (ya sea el nombre o la imagen), por eso tampoco pude hacer una agrupación de modo que mostrara en un mismo mensaje los precios de los distintos supermercados por producto. La idea sería aprender un poco más y lograr hacerlo en una próxima versión.
 
 ### Mejoras a futuro
 - Planeo desplegar la aplicación en un servidor para que el bot se ejecute de forma continua y esté disponible para probarlo sin necesidad de correr el programa localmente.
 - Que se scrapeen todos los productos en un proceso en segundo plano cada cierta cantidad de horas o dias y lo guarde en una BD. Entonces que el bot realice la búsqueda directamente en la BD.
 - Agregar la opción "Todos" para que busque en todos los supermercados a la vez.
-- Agregar imagenes de los productos y agrupar por producto (que en un mensaje ponga el producto seleccionado y los distintos precios de los supermercados). En este caso debería modificar también que al iniciar no solicite un supermercado o que con la opción de "Todos" muestre este caso.
-- Hacer que no se abra la ventana del navegador durante el scraping.
+- Agregar imagenes de los productos y agrupar por producto (que en un mensaje ponga el producto seleccionado y los distintos precios de los supermercados). En este caso debería modificar también que al iniciar no solicite un supermercado o que esta funcionalidad se muestre al seleccionar la opción de "Todos".
 - Agregar búsquedas por categorías.
 
 
