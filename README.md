@@ -56,9 +56,9 @@ Los distintos scrapers de supermercados, heredan de la clase BaseScraper.
 El archivo _scraper_factory.py_ se encarga de crear instancias de los scrapers específicos según el supermercado seleccionado.
 
 ### utils
-Esta carpeta contiene archivos que tienen funciones auxiliares que no se relacionan direcamente con la interacción con el bot o con el scraping. Sino con otras coss como el procesamiento de las imagenes o la normalización de los datos. Atualmente no la utilizo pero la idea es en un futuro agregar las imágenes de los productos.
+Esta carpeta contiene archivos que tienen funciones auxiliares que no se relacionan direcamente con la interacción con el bot o con el scraping. Sino con otras cosas como el procesamiento de las imagenes o la normalización de los datos. Atualmente no la utilizo pero la idea es en un futuro agregar las imágenes de los productos.
 
-### requeriments.txt
+### requirements.txt
 Este archivo tiene un listado de todas las dependencias necesarias para este proyecto. Facilitando la instalación en otros entornos.
 
 ### logs
