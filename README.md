@@ -96,7 +96,7 @@ Por último, tené en cuenta que el scraping lo realicé el día 07/01/2025, por
 </div>
 
 ## Conclusiones
-Me pareció entretenido realizar este proyecto, principalmente porque pude aprender a hacer web scraping. Además, considero que al hacerlo con ChatGPT, e ir viendo la explicación junto con las ideas del código, aprendí más rápido que siguiendo cualquier curso o video tutorial de youtube.
+Me pareció entretenido realizar este proyecto, principalmente porque pude aprender a hacer web scraping. Además, considero que al hacerlo con ChatGPT, e ir viendo la explicación junto con las ideas del código, aprendí más rápido que siguiendo un curso o video tutorial de youtube.
 
 Con el tema de ChatGPT, creo que es necesario primero darle un contexto sobre el tema, como los objetivos que queremos cumplir, las herramientas utilizadas, etc. Además, detallar lo mejor posible las funcionalidades básicas que queremos que cumpla, pero siempre manteniéndonos claros y concisos. Una buena idea también es darle algún ejemplo para que entienda el resultado que queremos obtener.
 Después de algunas pruebas, también descubrí que lo mejor era escribirle los prompts en inglés.
