@@ -5,3 +5,4 @@ Pillow
 rapidfuzz
 selenium
 webdriver-manager
+python-dotenv
